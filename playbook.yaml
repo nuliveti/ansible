@@ -1,0 +1,33 @@
+
+#here below is map
+Adress:
+  city: piler
+  country: india
+  dno: 107
+  street: nagar
+  #this is list of address
+Adresses:
+-type: perm
+ city: hyd
+ country: india
+-type: current
+ city: hyd
+ country: us
+ #this is second person
+-name: srishil
+ dob: 01-03-2000
+ #this is map
+ adress:
+  city: piler
+  country: india
+  dno: 107
+  street: nagar
+  #this is list of address
+Adresses:
+-type: perm
+ city: hyd
+ country: india
+-type: current
+ city: hyd
+ country: us
+
