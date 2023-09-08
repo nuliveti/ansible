@@ -1,8 +1,15 @@
-#### playbook contains multiple plays, always it should start with "- "
+# #### playbook contains multiple plays, always it should start with "- "
+# -name: ping the node
+#   hosts: mongodb
+# # this is list of tasks/collections/modules
+# tasks: 
+# -name: pinging the server
+#   # this is the map
+#   ansible.builtin.ping:
+
+
 -name: ping the node
   hosts: mongodb
-# this is list of tasks/collections/modules
 tasks: 
--name: pinging the server
-  # this is the map
+ -name: pinging the server
   ansible.builtin.ping:
