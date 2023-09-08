@@ -1,4 +1,4 @@
-#### playbook contains multiple plays
+#### playbook contains multiple plays, always it should start with "- "
 - name: ping the node
   hosts: mongodb
 # this is list of tasks/collections/modules
