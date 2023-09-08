@@ -1,0 +1,37 @@
+<person>
+     <name>kiran kumar</name>
+     <DOB>10-1-2003</DOB>
+     <country>india</country>
+     <city>banglore</city>
+     <Address>
+          <permaddress>
+            <country>India</country>
+            <city>california</city>
+          </permaddress>
+          <currentaddress>
+            <country>us</country>
+            <city>patancheruvu</city>
+          </currentaddress>
+     </Address>
+</person>
+
+
+
+<person>
+     <name>kiran kumar</name>
+     <DOB>10-1-2003</DOB>
+     <country>india</country>
+     <city>banglore</city>
+     <Address>
+          <permaddress>
+            <country>India</country>
+            <city>california</city>
+          </permaddress>
+          <currentaddress>
+            <country>us</country>
+            <city>patancheruvu</city>
+          </currentaddress>
+     </Address>
+</person>
+## in above exmple name is a KEY and kirankumar is a key value pair so anything in xml is akey value 
+## also in xml starting and closing is very important.

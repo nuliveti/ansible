@@ -1,0 +1,34 @@
+{
+    "name": "kiran kumar",
+    "DOB": "07-08-2010",
+    "city": "hyd",
+    "country": "india"
+    //this is address map, inside everything is key value pair
+    "Address": {
+      "country": "india",
+      "city": "piler"
+    }
+
+}
+
+{
+    "name": "kiran kumar",
+    "DOB": "07-08-2010",
+    "city": "hyd",
+    
+   // this is address map, inside everything is key value pair
+  "address": [
+    { 
+        "DOB": "07-08-2010",
+        "city": "hyd",
+        "country": "india" 
+    },
+    {
+        "DOB": "07-08-2010",
+        "city": "hyd",
+        "country": "india"
+    }
+    ]
+}
+
+###in json list start with this brass [] and map start with {} brasses.
