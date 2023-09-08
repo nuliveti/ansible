@@ -1,0 +1,15 @@
+-name: variables in ansible
+  hosts: mongodb
+  #this is play vevel cariables, map
+ vars:
+   COURSE: devops
+   TRAINER: kirankumar
+   DURATION: 110 hrs
+ tasks:
+ - names: print hellow world
+   ansible.builtin.debug:
+     msg: "Hellow, iam learning ansible"
+ - name: print variables
+   ansible.builtin.debug:
+    msg:  "Hellow, I'am learning {{COURSE}}, trainer {{TRAINER}} and duration is {{DURATION}}"
+    
