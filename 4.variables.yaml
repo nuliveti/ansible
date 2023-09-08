@@ -2,7 +2,7 @@
   hosts: mongodb
   #this is play vevel cariables, map
   vars:
-   COURSE: devops
+   COURSE: devops with aws
    TRAINER: kirankumar
    DURATION: 110 hrs
   tasks:
