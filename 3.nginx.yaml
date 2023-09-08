@@ -1,2 +1,13 @@
 #playbook install nginx and run throough ansible
-
+- name: install and run nginx 
+  hosts: mongodb
+  become: yes ### this will give us root access
+  tasks:
+  - name: install nginx
+    ansible.builtin.yum:
+      name: nginx
+      state: installed
+  - name: start nginx
+    ansible.builtin.service:
+      name: nginx
+      state: started
