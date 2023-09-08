@@ -12,4 +12,4 @@
   hosts: mongodb
   tasks: 
   - name: pinging the server
-   ansible.builtin.ping:
+    ansible.builtin.ping:
