@@ -1,4 +1,3 @@
----
 - name: varibales from files
   hosts: localhost
   vars_files:
