@@ -1,6 +1,6 @@
 - name: varibales from files
-  hosts: localhost
-  varsfromfiles:
+  hosts: mongodb
+  vars_files:
   - samplevars.yaml
   tasks:
   - name: printing variables
