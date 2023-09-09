@@ -1,19 +1,8 @@
 - name: variables from files
-  hosts: localhost
+  hosts: localhost #managing the ansible server itself
   vars_files:
   - samplevars.yaml
   tasks:
   - name: printing variables
     ansible.builtin.debug:
-      msg: "we are learning {{NAME}}, duration is: {{DURATION}}, and trainer is: {{TRAINER}}"
-
-
-
-# - name: variables from files
-#   hosts: localhost #managing the ansible server itself
-#   vars_files:
-#   - variables.yaml
-#   tasks:
-#   - name: printing variables
-#     ansible.builtin.debug:
-#       msg: "We are learning {{NAME}}, Duration is: {{DURATION}}, and Trainer is: {{TRAINER}}"
+      msg: "We are learning {{NAME}}, Duration is: {{DURATION}}, and Trainer is: {{TRAINER}}"
