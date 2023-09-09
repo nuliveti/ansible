@@ -1,5 +1,5 @@
 - name: varibales from files
-  hosts: mongodb
+  hosts: localhost
   vars_files:
   - samplevars.yaml
   tasks:
