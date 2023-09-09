@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
   - name: check roboshop exist or not
-  when ever we want to run linux commands directly i.e in the case of module not available in ansible
+    #when ever we want to run linux commands directly i.e in the case of module not available in ansible
     ansible.builtin.command: id roboshop
     register: output #output is variable name 
     #when the user does not exists, ansible treating this failure and comeout by default
