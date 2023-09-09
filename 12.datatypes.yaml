@@ -11,13 +11,13 @@
   - NAME: "Sivakumar" #string
   - isdevOps: true #boolean
   - skills:
-   -devops
-   -aws
-   -Docker
+    -devops
+    -aws
+    -Docker
   - EXPERIANCE: #map
-     Devops: 7
-     AWS: 5
-     Docker: 4
+      Devops: 7
+      AWS: 5
+      Docker: 4
   tasks:
   - name: print number variable
     Ansible.builtin.debug:
