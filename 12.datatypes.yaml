@@ -5,7 +5,7 @@
 # Boolean
 
 - name: ansible variable data types
-  hosts: localhosts
+  hosts: mongodb
   vars:
   - AGE: 30 #Number
   - NAME: "Sivakumar" #string
