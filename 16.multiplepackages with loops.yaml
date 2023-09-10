@@ -1,0 +1,13 @@
+- name: install multiple packages
+  hosts: mongodb
+  become: yes
+  tasks:
+  - name: install multipackages
+    ansible.builtin.yum:
+      name: "{{item}}"
+      state: installed
+    loop:
+    - nginx
+    - postfix
+    - cyrus-sasl-plain
+    - mailx
