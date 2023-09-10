@@ -1,0 +1,16 @@
+- name: install multiple packages
+  hosts: mongodb
+  become: yes
+  tasks:
+  - name: install multipackages
+    ansible.builtin.yum:
+      name: "{{item.name}}"
+      state: "{{item.state}}"
+    loop:
+    #listof map
+          note: item.name = first time nginx will come to loop and then referes item.state then state will come weather install or aBSENT
+
+    - {name: 'nginx', state: 'absent'}
+    - {name: 'postfix', state: 'installed'}
+    - {name: 'cyrus-sasl-plain', state: 'absent'}
+    - {name: 'mailx', state: 'installed'}
