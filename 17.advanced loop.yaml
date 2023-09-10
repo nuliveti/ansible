@@ -8,7 +8,7 @@
       state: "{{item.state}}"
     loop:
     #listof map
-          note: item.name = first time nginx will come to loop and then referes item.state then state will come weather install or aBSENT
+    # note: item.name = first time nginx will come to loop and then referes item.state then state will come weather install or aBSENT
 
     - {name: 'nginx', state: 'absent'}
     - {name: 'postfix', state: 'installed'}
