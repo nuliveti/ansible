@@ -6,4 +6,4 @@
   - name: run this name is DevOps
     ansible.builtin.debug:
       msg: "hellow {{NAME}}"
-    when : NAME == "DevOps"
+    when : NAME == "DevOps" #if this expression is true then only this module will run
